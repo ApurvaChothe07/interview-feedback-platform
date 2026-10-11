@@ -18,6 +18,7 @@ from flask import Flask, jsonify, request
 
 import extract_features as ef
 import interview_feedback as fb
+import tobii_collector as tc
 
 app = Flask(__name__)
 
@@ -126,7 +127,24 @@ def health():
         engine=engine_name,
         model_loaded=MODEL is not None,
         feature_count=len(FEATURE_COLS),
+        tobii_device_connected=tc.COLLECTOR.eyetracker is not None
     )
+
+
+@app.post("/gaze/start")
+def gaze_start():
+    tc.COLLECTOR.start()
+    return jsonify(
+        status="ok",
+        message="Gaze tracking session started",
+        device=tc.COLLECTOR.eyetracker.device_name if tc.COLLECTOR.eyetracker else "simulation"
+    )
+
+
+@app.post("/gaze/stop")
+def gaze_stop():
+    summary = tc.COLLECTOR.stop()
+    return jsonify(status="ok", gaze_data=summary)
 
 
 @app.post("/analyze")
