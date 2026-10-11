@@ -1,0 +1,513 @@
+[
+ {
+  "questionId": 1,
+  "speaker": "interviewer",
+  "startS": 36.588,
+  "endS": 39.668,
+  "text": "hi i'm ellie thanks for coming in today"
+ },
+ {
+  "questionId": 2,
+  "speaker": "interviewer",
+  "startS": 39.888,
+  "endS": 43.378,
+  "text": "i was created to talk to people in a safe and secure environment"
+ },
+ {
+  "questionId": 3,
+  "speaker": "interviewer",
+  "startS": 43.728,
+  "endS": 48.498,
+  "text": "think of me as a friend i don't judge i can't i'm a computer"
+ },
+ {
+  "questionId": 4,
+  "speaker": "interviewer",
+  "startS": 49.188,
+  "endS": 52.388,
+  "text": "i'm here to learn about people and would love to learn about you"
+ },
+ {
+  "questionId": 5,
+  "speaker": "interviewer",
+  "startS": 52.658,
+  "endS": 58.958,
+  "text": "i'll ask a few questions to get us started and please feel free to tell me anything your answers are totally confidential"
+ },
+ {
+  "questionId": 6,
+  "speaker": "interviewer",
+  "startS": 60.028,
+  "endS": 61.378,
+  "text": "how are you doing today"
+ },
+ {
+  "questionId": 6,
+  "speaker": "candidate",
+  "startS": 62.328,
+  "endS": 63.178,
+  "text": "good"
+ },
+ {
+  "questionId": 7,
+  "speaker": "interviewer",
+  "startS": 63.798,
+  "endS": 64.738,
+  "text": "that's good"
+ },
+ {
+  "questionId": 8,
+  "speaker": "interviewer",
+  "startS": 65.858,
+  "endS": 67.528,
+  "text": "where are you from originally"
+ },
+ {
+  "questionId": 8,
+  "speaker": "candidate",
+  "startS": 68.978,
+  "endS": 70.288,
+  "text": "atlanta georgia"
+ },
+ {
+  "questionId": 9,
+  "speaker": "interviewer",
+  "startS": 70.978,
+  "endS": 71.868,
+  "text": "really"
+ },
+ {
+  "questionId": 10,
+  "speaker": "interviewer",
+  "startS": 72.788,
+  "endS": 74.198,
+  "text": "why'd you move to l_a"
+ },
+ {
+  "questionId": 10,
+  "speaker": "candidate",
+  "startS": 75.028,
+  "endS": 78.128,
+  "text": "um my parents are from here um"
+ },
+ {
+  "questionId": 11,
+  "speaker": "interviewer",
+  "startS": 82.218,
+  "endS": 83.578,
+  "text": "how do you like l_a"
+ },
+ {
+  "questionId": 11,
+  "speaker": "candidate",
+  "startS": 83.808,
+  "endS": 84.588,
+  "text": "i love it"
+ },
+ {
+  "questionId": 12,
+  "speaker": "interviewer",
+  "startS": 85.558,
+  "endS": 87.898,
+  "text": "what are some things you really like about l_a"
+ },
+ {
+  "questionId": 12,
+  "speaker": "candidate",
+  "startS": 88.458,
+  "endS": 89.968,
+  "text": "i like the weather"
+ },
+ {
+  "questionId": 12,
+  "speaker": "candidate",
+  "startS": 90.278,
+  "endS": 93.568,
+  "text": "i like the opportunities"
+ },
+ {
+  "questionId": 12,
+  "speaker": "candidate",
+  "startS": 94.738,
+  "endS": 95.298,
+  "text": "um"
+ },
+ {
+  "questionId": 12,
+  "speaker": "candidate",
+  "startS": 96.588,
+  "endS": 97.278,
+  "text": "yes"
+ },
+ {
+  "questionId": 13,
+  "speaker": "interviewer",
+  "startS": 98.228,
+  "endS": 100.868,
+  "text": "how easy was it for you to get used to living in l_a"
+ },
+ {
+  "questionId": 13,
+  "speaker": "candidate",
+  "startS": 102.428,
+  "endS": 103.268,
+  "text": "um"
+ },
+ {
+  "questionId": 13,
+  "speaker": "candidate",
+  "startS": 104.278,
+  "endS": 105.558,
+  "text": "it took a minute"
+ },
+ {
+  "questionId": 13,
+  "speaker": "candidate",
+  "startS": 107.738,
+  "endS": 108.798,
+  "text": "somewhat easy"
+ },
+ {
+  "questionId": 14,
+  "speaker": "interviewer",
+  "startS": 110.788,
+  "endS": 113.168,
+  "text": "what are some things you don't really like about l_a"
+ },
+ {
+  "questionId": 14,
+  "speaker": "candidate",
+  "startS": 114.038,
+  "endS": 115.558,
+  "text": "congestion"
+ },
+ {
+  "questionId": 15,
+  "speaker": "interviewer",
+  "startS": 119.218,
+  "endS": 119.978,
+  "text": "mhm"
+ },
+ {
+  "questionId": 15,
+  "speaker": "candidate",
+  "startS": 120.268,
+  "endS": 121.158,
+  "text": "that's it"
+ },
+ {
+  "questionId": 16,
+  "speaker": "interviewer",
+  "startS": 122.828,
+  "endS": 123.768,
+  "text": "okay"
+ },
+ {
+  "questionId": 17,
+  "speaker": "interviewer",
+  "startS": 125.548,
+  "endS": 126.958,
+  "text": "what'd you study at school"
+ },
+ {
+  "questionId": 17,
+  "speaker": "candidate",
+  "startS": 128.488,
+  "endS": 132.628,
+  "text": "um i took up business and administration"
+ },
+ {
+  "questionId": 18,
+  "speaker": "interviewer",
+  "startS": 133.718,
+  "endS": 134.438,
+  "text": "cool"
+ },
+ {
+  "questionId": 19,
+  "speaker": "interviewer",
+  "startS": 134.818,
+  "endS": 136.178,
+  "text": "are you still doing that"
+ },
+ {
+  "questionId": 19,
+  "speaker": "candidate",
+  "startS": 136.748,
+  "endS": 139.418,
+  "text": "uh yeah i am"
+ },
+ {
+  "questionId": 19,
+  "speaker": "candidate",
+  "startS": 139.868,
+  "endS": 144.548,
+  "text": "here and there i'm on a break right now but i plan on going back in the uh next semester"
+ },
+ {
+  "questionId": 20,
+  "speaker": "interviewer",
+  "startS": 146.008,
+  "endS": 147.468,
+  "text": "what's your dream job"
+ },
+ {
+  "questionId": 20,
+  "speaker": "candidate",
+  "startS": 149.258,
+  "endS": 152.168,
+  "text": "uh probably to open up my own business"
+ },
+ {
+  "questionId": 21,
+  "speaker": "interviewer",
+  "startS": 155.698,
+  "endS": 156.678,
+  "text": "awesome"
+ },
+ {
+  "questionId": 22,
+  "speaker": "interviewer",
+  "startS": 159.448,
+  "endS": 160.858,
+  "text": "do you travel a lot"
+ },
+ {
+  "questionId": 22,
+  "speaker": "candidate",
+  "startS": 161.248,
+  "endS": 162.068,
+  "text": "no"
+ },
+ {
+  "questionId": 23,
+  "speaker": "interviewer",
+  "startS": 163.618,
+  "endS": 164.328,
+  "text": "why"
+ },
+ {
+  "questionId": 23,
+  "speaker": "candidate",
+  "startS": 165.608,
+  "endS": 168.968,
+  "text": "um no specific reason i just"
+ },
+ {
+  "questionId": 23,
+  "speaker": "candidate",
+  "startS": 169.518,
+  "endS": 170.978,
+  "text": "don't travel a lot"
+ },
+ {
+  "questionId": 23,
+  "speaker": "candidate",
+  "startS": 171.308,
+  "endS": 172.978,
+  "text": "i'm pretty local"
+ },
+ {
+  "questionId": 24,
+  "speaker": "interviewer",
+  "startS": 174.148,
+  "endS": 174.968,
+  "text": "okay"
+ },
+ {
+  "questionId": 25,
+  "speaker": "interviewer",
+  "startS": 175.558,
+  "endS": 177.668,
+  "text": "how often do you go back to your hometown"
+ },
+ {
+  "questionId": 25,
+  "speaker": "candidate",
+  "startS": 178.578,
+  "endS": 179.918,
+  "text": "once a year"
+ },
+ {
+  "questionId": 26,
+  "speaker": "interviewer",
+  "startS": 182.508,
+  "endS": 183.268,
+  "text": "nice"
+ },
+ {
+  "questionId": 27,
+  "speaker": "interviewer",
+  "startS": 184.998,
+  "endS": 186.858,
+  "text": "do you consider yourself an introvert"
+ },
+ {
+  "questionId": 27,
+  "speaker": "candidate",
+  "startS": 189.098,
+  "endS": 191.068,
+  "text": "can you be a little bit more specific"
+ },
+ {
+  "questionId": 28,
+  "speaker": "interviewer",
+  "startS": 193.678,
+  "endS": 195.248,
+  "text": "whatever comes to your mind"
+ },
+ {
+  "questionId": 28,
+  "speaker": "candidate",
+  "startS": 196.868,
+  "endS": 197.998,
+  "text": "no answer"
+ },
+ {
+  "questionId": 29,
+  "speaker": "interviewer",
+  "startS": 199.288,
+  "endS": 200.088,
+  "text": "okay"
+ },
+ {
+  "questionId": 30,
+  "speaker": "interviewer",
+  "startS": 200.818,
+  "endS": 202.398,
+  "text": " what do you do to relax"
+ },
+ {
+  "questionId": 30,
+  "speaker": "candidate",
+  "startS": 203.318,
+  "endS": 206.358,
+  "text": "i like reading books i enjoy i enjoy cooking"
+ },
+ {
+  "questionId": 30,
+  "speaker": "candidate",
+  "startS": 206.728,
+  "endS": 208.658,
+  "text": "um exercising is great"
+ },
+ {
+  "questionId": 31,
+  "speaker": "interviewer",
+  "startS": 211.648,
+  "endS": 212.618,
+  "text": "awesome"
+ },
+ {
+  "questionId": 32,
+  "speaker": "interviewer",
+  "startS": 213.878,
+  "endS": 216.068,
+  "text": "how are you at controlling your temper"
+ },
+ {
+  "questionId": 32,
+  "speaker": "candidate",
+  "startS": 217.728,
+  "endS": 219.868,
+  "text": "i'm i'm i'm pretty good at it"
+ },
+ {
+  "questionId": 32,
+  "speaker": "candidate",
+  "startS": 220.228,
+  "endS": 221.058,
+  "text": "um"
+ },
+ {
+  "questionId": 33,
+  "speaker": "interviewer",
+  "startS": 221.358,
+  "endS": 222.068,
+  "text": "really"
+ },
+ {
+  "questionId": 33,
+  "speaker": "candidate",
+  "startS": 221.358,
+  "endS": 222.068,
+  "text": "yeah"
+ },
+ {
+  "questionId": 34,
+  "speaker": "interviewer",
+  "startS": 223.708,
+  "endS": 227.208,
+  "text": "when was the last time you argued with someone and what was it about"
+ },
+ {
+  "questionId": 34,
+  "speaker": "candidate",
+  "startS": 227.998,
+  "endS": 230.118,
+  "text": "um probably about"
+ },
+ {
+  "questionId": 34,
+  "speaker": "candidate",
+  "startS": 231.088,
+  "endS": 232.368,
+  "text": "two weeks ago"
+ },
+ {
+  "questionId": 35,
+  "speaker": "interviewer",
+  "startS": 235.458,
+  "endS": 237.378,
+  "text": "how did you feel in that moment"
+ },
+ {
+  "questionId": 35,
+  "speaker": "candidate",
+  "startS": 238.298,
+  "endS": 240.168,
+  "text": "uh frustrated"
+ },
+ {
+  "questionId": 36,
+  "speaker": "interviewer",
+  "startS": 242.218,
+  "endS": 243.518,
+  "text": "tell me more about that"
+ },
+ {
+  "questionId": 36,
+  "speaker": "candidate",
+  "startS": 244.748,
+  "endS": 245.808,
+  "text": "um"
+ },
+ {
+  "questionId": 36,
+  "speaker": "candidate",
+  "startS": 246.338,
+  "endS": 247.918,
+  "text": "i don't like bias"
+ },
+ {
+  "questionId": 36,
+  "speaker": "candidate",
+  "startS": 248.488,
+  "endS": 252.298,
+  "text": "um i don't like um when someone says they're gonna do something and they don't"
+ },
+ {
+  "questionId": 37,
+  "speaker": "interviewer",
+  "startS": 252.938,
+  "endS": 253.678,
+  "text": "mhm"
+ },
+ {
+  "questionId": 38,
+  "speaker": "interviewer",
+  "startS": 257.578,
+  "endS": 258.848,
+  "text": "how close are you to them"
+ }
+]

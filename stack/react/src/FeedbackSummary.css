@@ -1,0 +1,132 @@
+/*
+  Everything is scoped under .fs so it will not clash with your existing styles.
+  Change the colors and fonts in the variables below to match your app.
+  Optional fonts (add to public/index.html <head>; the page falls back cleanly without them):
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+*/
+.fs {
+  --fs-ink: #0f172a;
+  --fs-muted: #475569;
+  --fs-line: #e2e8f0;
+  --fs-page: #f8fafc;
+  --fs-surface: #ffffff;
+  --fs-accent: #2563eb;
+  --fs-ok: #059669;
+  --fs-ok-band: #d1fae5;
+  --fs-off: #d97706;
+  --fs-serif: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+  --fs-sans: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+
+  box-sizing: border-box;
+  display: block;
+  max-width: 52rem;
+  margin: 0 auto;
+  padding: 3rem 2.5rem 4rem;
+  background-color: var(--fs-surface);
+  border-radius: 16px;
+  border: 1px solid var(--fs-line);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.06);
+  color: var(--fs-ink);
+  font-family: var(--fs-sans);
+  font-size: 1rem;
+  line-height: 1.6;
+}
+.fs *, .fs *::before, .fs *::after { box-sizing: inherit; }
+.fs p, .fs h1, .fs h2, .fs ul { margin: 0; }
+.fs ul { padding: 0; list-style: none; }
+
+.fs-state { padding-top: 4rem; }
+
+/* Header */
+.fs-hero {
+  font-family: var(--fs-serif);
+  font-weight: 500;
+  font-size: clamp(1.9rem, 5vw, 2.6rem);
+  line-height: 1.15;
+  letter-spacing: -0.01em;
+  max-width: 24ch;
+}
+.fs-sub { margin-top: 0.75rem; font-size: 1.125rem; color: var(--fs-muted); max-width: 52ch; }
+.fs-score { margin-top: 1.25rem; font-size: 0.9375rem; color: var(--fs-muted); max-width: 60ch; }
+.fs-score strong { color: var(--fs-ink); font-size: 1.125rem; }
+
+/* Sections: grouped by whitespace and one rule, not by boxes */
+.fs-section { margin-top: 2.75rem; padding-top: 1.5rem; border-top: 1px solid var(--fs-line); }
+.fs-section h2 { font-size: 1.25rem; font-weight: 600; letter-spacing: -0.005em; }
+.fs-hint { margin-top: 0.35rem; color: var(--fs-muted); font-size: 0.9375rem; }
+
+/* Measurement rulers */
+.fs-rows { margin-top: 1.25rem; display: grid; gap: 1.5rem; }
+.fs-row-name { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 0.25rem 1rem; }
+.fs-row-area { font-weight: 600; }
+.fs-row-value { color: var(--fs-muted); font-variant-numeric: tabular-nums; }
+.fs-ruler {
+  position: relative;
+  height: 0.5rem;
+  margin: 0.8rem 0 0.4rem;
+  background: var(--fs-line);
+  border-radius: 999px;
+}
+.fs-band {
+  position: absolute; top: 0; bottom: 0;
+  background: var(--fs-ok-band);
+  outline: 1px solid var(--fs-ok);
+  outline-offset: -1px;
+  border-radius: 999px;
+}
+.fs-marker {
+  position: absolute; top: 50%;
+  width: 1.05rem; height: 1.05rem;
+  margin: -0.525rem 0 0 -0.525rem;
+  border-radius: 50%;
+  border: 3px solid var(--fs-surface);
+  box-shadow: 0 0 0 1px var(--fs-ink);
+}
+.fs-marker-ok { background: var(--fs-ok); }
+.fs-marker-off { background: var(--fs-off); }
+.fs-row-target { font-size: 0.875rem; color: var(--fs-muted); }
+.fs-row-msg { margin-top: 0.35rem; font-size: 0.9375rem; max-width: 60ch; }
+
+/* Lists */
+.fs-list { margin-top: 1rem; display: grid; gap: 1.1rem; }
+.fs-list-main { font-weight: 500; max-width: 60ch; }
+.fs-list-tip { margin-top: 0.15rem; color: var(--fs-muted); max-width: 60ch; }
+
+/* Practice plan checklist */
+.fs-plan { margin-top: 1rem; display: grid; gap: 0.75rem; }
+.fs-plan label { display: flex; gap: 0.75rem; align-items: flex-start; cursor: pointer; max-width: 60ch; }
+.fs-plan input { width: 1.15rem; height: 1.15rem; margin-top: 0.2rem; accent-color: var(--fs-accent); flex: none; }
+.fs-plan .fs-done span { color: var(--fs-muted); text-decoration: line-through; }
+
+/* Questions */
+.fs-questions { margin-top: 1rem; border-top: 1px solid var(--fs-line); }
+.fs-q { border-bottom: 1px solid var(--fs-line); }
+.fs-q summary {
+  display: flex; justify-content: space-between; align-items: baseline; gap: 1rem;
+  padding: 0.85rem 0; cursor: pointer; list-style: none;
+}
+.fs-q summary::-webkit-details-marker { display: none; }
+.fs-q-text { flex: 1; min-width: 0; }
+.fs-q-badge { flex: none; font-size: 0.875rem; color: var(--fs-ok); }
+.fs-q-badge-note { color: var(--fs-off); }
+.fs-q-feedback { padding: 0 0 0.5rem 1rem; display: grid; gap: 0.35rem; list-style: disc; }
+.fs-q-feedback li { max-width: 60ch; }
+.fs-q-meta { padding: 0 0 1rem 1rem; font-size: 0.875rem; color: var(--fs-muted); }
+
+/* Notes and button */
+.fs-notes { margin-top: 3rem; font-size: 0.875rem; color: var(--fs-muted); display: grid; gap: 0.35rem; max-width: 60ch; }
+.fs-button {
+  margin-top: 1.25rem; padding: 0.6rem 1.1rem; font: inherit; font-weight: 600;
+  color: #fff; background: var(--fs-accent); border: 0; border-radius: 0.4rem; cursor: pointer;
+}
+
+/* Keyboard focus */
+.fs summary:focus-visible, .fs input:focus-visible, .fs-button:focus-visible {
+  outline: 3px solid var(--fs-accent);
+  outline-offset: 3px;
+}
+
+@media (max-width: 30rem) {
+  .fs { padding-top: 1.5rem; }
+  .fs-q summary { flex-direction: column; gap: 0.15rem; }
+}

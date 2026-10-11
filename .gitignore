@@ -1,0 +1,29 @@
+# Dependencies & Build Outputs
+stack/react/node_modules/
+stack/react/dist/
+stack/spring-boot/target/
+stack/spring-boot/.maven/
+
+# Python Virtual Environments & Cache
+__pycache__/
+*.py[cod]
+*$py.class
+stack/python-service/.venv/
+stack/python-service/venv/
+.env
+
+# Large dataset raw files (if placed inside workspace)
+*.wav
+*.mp4
+*.bin
+
+# IDE & Editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS files
+Thumbs.db
+Desktop.ini
+.DS_Store
